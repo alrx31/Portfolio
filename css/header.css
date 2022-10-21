@@ -1,0 +1,65 @@
+header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background-color: var(--green);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+.someAbout{
+	position: relative;
+	max-width: 50%;
+	text-align: center;
+	z-index: 3;
+}
+
+.someAbout h1 {
+	color: var(--white);
+	font-weight: 300;
+	cursor: default;
+}
+.someAbout h3 {
+	margin-top: 30px;
+	cursor: default;
+	
+}
+.someAbout h3 span {
+	font-family: 'Comfortaa', cursive;
+}
+
+
+.o {
+	color: var(--white);
+	animation: rgbSlay 2s infinite forwards;
+	animation-delay: .4s;
+}
+.y {
+	color: var(--white);
+	animation: rgbSlay 2s infinite forwards;
+}
+
+
+
+
+
+
+
+@keyframes rgbSlay {
+	0%{
+		color: var(--white);
+	}
+	25%{
+		color: var(--blue);
+	}
+	50%{
+		color: var(--red);
+	}
+	75%{
+		color: var(--cyan);
+	}
+	100%{
+		color: var(--white);
+	}
+}

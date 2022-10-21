@@ -1,0 +1,405 @@
+nav {
+	width: 60px;
+	height: 100vh;
+	background-color: var(--cyan);
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 999;
+	border-radius: 10px 0 0 10px;
+}
+.nav__buttons {
+	width: 100%;
+	height: 80%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+
+}
+.nav__buttons button {
+	transform: rotate(90deg);
+	min-width: 100px;
+	margin: 10px;
+	outline: none;
+	border: none;
+	background-color: transparent;
+	font-family: 'Comfortaa', cursive;
+	font-size: 20px;
+	font-weight: 800;
+	cursor: pointer;
+	color: var(--black);
+	position: relative;
+}
+.nav__buttons button::before{
+	content: '';
+	position: absolute;
+	left: 50%;
+	bottom: -5px;
+	width: 0;
+	height: 2px;
+	background-color: var(--white);
+	opacity: 0;
+	transition: .4s;
+	
+}
+.nav__buttons button:hover::before {
+	opacity: 1;
+	width: 100%;
+	left: 0%;
+}
+
+.nav__buttons button:hover {
+	color: var(--white);
+}
+
+.nav__social{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-flow: column nowrap;
+	align-items: center;
+}
+.nav__social img {
+	width: 30px;
+	cursor: pointer;
+}
+.nav__social img:hover{
+	transform: rotateZ(-30deg);
+}
+
+
+.portfolio {
+	width: 70vw;
+	height: 100%;
+	background-color: var(--white);
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+	transition: .3s;
+	transform: translateX(100%);
+}
+.portfolio.active{
+	transform: translateX(00%);
+	opacity: 1;
+}
+.about {
+	width: 70vw;
+	height: 100%;
+	background-color: var(--cyan);
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+	transition: .3s;
+	transform: translateX(100%);
+}
+.about.active{
+	transform: translateX(00%);
+	opacity: 1;
+}
+.contact {
+	width: 70vw;
+	height: 100%;
+	background-color:rgb(234, 35, 43);
+	position: absolute;
+	top: 0;
+	right: 0;
+	opacity: 0;
+	transition: .3s;
+	transform: translateX(100%);
+}
+.contact.active{
+	transform: translateX(00%);
+	opacity: 1;
+}
+.social__network {
+	flex-flow: row nowrap;
+	justify-content: space-evenly;
+	width: 50%;
+}
+.social__network img {
+	width: 30px;
+	height: auto;
+	margin: 10px;
+}
+
+
+
+
+.nav__formBlock_text{
+	cursor: default;
+}
+
+.nav__formBlock {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-flow: row nowrap;
+	color: var(--white);
+}
+.nav__formBlock h1 {
+	font-size: 30px;
+	cursor: dafault;
+}
+.nav__formBlock h3{
+	font-size: 20px;
+	cursor: dafault;
+}
+.nav__formBlock a {
+	color: var(--white);
+	font-family: 'Amatic SC', cursive;
+	font-size: 20px;
+	font-weight: 800;
+}
+.nav__formBlock a:hover {
+	color: var(--black);
+}
+
+.nav__gifs {
+	width: 100%;
+	height: 50%;
+	display: flex;
+	justify-content: space-evenly;
+
+}
+.nav__gifs img{
+	padding: 20px;
+	width: calc(var(--index)*15);
+
+}
+
+ form {
+	width: 50%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column nowrap;
+}
+.div {
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+
+
+
+
+
+
+.about__text {
+	width: 100%;
+	height: calc(var(--index)*15);
+	display: flex;
+	flex-flow: column nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	margin-top: 5px;
+	padding: calc(var(--index)*1.5);
+	padding-bottom: 10px;
+	position: relative;
+}
+
+.about__text::after{
+	position: absolute;
+	content: '';
+	width: 200px;
+	height: 2px;
+	border-radius: 10px;
+	background-color: var(--black);
+	bottom: 0;
+	left: 20%;
+}
+
+.about__text h1{
+	margin:var(--index) 0;
+	font-family: 'Comfortaa', cursive;
+	cursor: default;
+	font-size: calc(var(--index)*1.5);
+}
+
+.about__text h6{
+	margin-left: 10px;
+	line-height: 20px;
+	letter-spacing: 3px;
+	cursor: default;
+	font-size: calc(var(--index)*.75);
+	line-height: calc(var(--index)*1);
+
+}
+
+.about__form{
+	width: 100%;
+	height: 100%;
+	padding: 20px;
+	margin: 5px;
+	display: flex;
+	flex-flow: row no-wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	padding-top: 0;
+}
+.about__toDo {
+	width: 40%;
+	height: 100%;
+	margin: 5px;
+
+}
+.about__toDo h1 {
+	text-shadow: 3px 3px var(--red);
+	font-size: 25px;
+	text-align: left;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	cursor: default;
+}
+.about__toDo h3{
+	font-size: 16px;
+	margin-top: 50px;
+	cursor: default;
+}
+.about__toDo li {
+	font-family: 'Caveat', cursive;
+	font-size: 20px;
+	margin: 20px 0;
+	cursor: default;
+}
+
+.about__form form {
+	width: 50%;
+	height: auto;
+	position: relative;
+	top: 0;
+	transform: translate3d(0,-50%,0);
+}
+
+
+
+.portfolio {
+	padding: calc(var(--index)*2);
+}
+.portfolio__item {
+	width: 60%;
+	height: auto;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	background-position: center;
+	background-size: cover;
+	overflow: hidden;
+	border:  2px dotted var(--black);
+	transition: .3s;
+	will-change: border;
+}
+
+.portfolio__item:hover {
+	border:2px  solid var(--red);
+}
+
+.portfolio__item img{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+
+
+
+
+
+form input, textarea {
+	width: 30%;
+	margin: 20px;
+	background-color: transparent;
+	outline: none;
+	border: none;
+	border-bottom: 2px solid white;
+	transition: .2s;
+	color: var(--white);
+	font-size: 16px;
+}
+form input::placeholder, textarea::placeholder {
+	color: var(--white);
+}
+textarea {
+	min-width: 30%;
+	min-height: 100px;
+}
+
+form input:focus,textarea:focus {
+	border-bottom: 2px solid black;
+}
+form button {
+	padding: 20px;
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+	transition: .2s;
+	border-bottom: 2px solid var(--red);
+}
+form button:hover {
+	border-bottom: 2px solid black;
+}
+form #message {
+	width: 70%;
+	margin: 10px auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.cross {
+	width: 40px;
+	height: 40px;
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	cursor: pointer;
+	transition: 3s;
+	z-index: 2;
+}
+.cross::before{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	background-color: var(--black);
+	width: 100%;
+	height: 3px;
+	transform: rotate(-45deg);
+	transition: .3s;
+}
+
+.cross::after{
+	content: '';
+	position: absolute;
+	left: 0;
+	top: 50%;
+	background-color: var(--black);
+	width: 100%;
+	height: 3px;
+	transform: rotate(45deg);
+	transition: .3s;
+}
+
+.cross:hover::after {
+	transform: rotate(-45deg);
+	background-color: var(--blue);
+}
+.cross:hover::before {
+	transform: rotate(45deg);
+	background-color: var(--blue);
+}

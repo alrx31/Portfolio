@@ -1,0 +1,38 @@
+
+
+@media(max-width: 768px){
+	.portfolio{
+		width: 100vw;
+	}
+	.about{
+		width: 100vw;
+	}
+	.contact {
+		width: 100vw;
+	}
+	.section1 {
+		flex-flow: column nowrap;
+
+	}
+	.sec1{
+		width: 100%;
+		align-items: flex-start;
+		padding-left: 10px
+	}
+	.sec2{
+		width: 100%;
+	}
+	.someAbout {
+		max-width: 70%;
+	}
+	.nav__gifs {
+		display: none;
+	}
+	nav {
+		width: 40px;
+	}
+	.nav__formBlock {
+		height: 100%;
+		flex-flow: column nowrap;
+	}
+}
