@@ -191,7 +191,6 @@ nav {
 
 
 
-
 .about__text {
 	width: 100%;
 	height: calc(var(--index)*15);
@@ -306,6 +305,9 @@ nav {
 
 }
 
+.about form input, .about form textarea{
+	color:var(--black);
+}
 
 
 

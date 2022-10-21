@@ -28,7 +28,7 @@ html,body{
 	--white: #ffffff;
 	--blue: rgb(61, 145, 219);
 	--red: rgb(237, 24, 70);
-	--cyan:  rgb(135,249,212);
+	--cyan:  #eeffcc;
 	--black: black;
 	--gray:  lightgray;
 	--index: calc(1vh + 1vw);
