@@ -30,8 +30,8 @@ html,body{
 	--blue: rgb(61, 145, 219);
 	--red: rgb(237, 24, 70);
 	/*--red:  rgb(122, 91, 92);*/
-	--cyan:  rgb(89 ,133, 157);
-	-lred: rgb(234, 35, 43);
+	--cyan:  #41d36b;
+	--lred: rgb(234, 35, 43);
 
 	--black: black;
 	--gray:  lightgray;
