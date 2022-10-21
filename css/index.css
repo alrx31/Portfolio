@@ -25,11 +25,11 @@ html,body{
 
 :root{
 	/*--green: rgb(0, 192, 129);*/
-	--green: rgb(49 109 90);
+	--green: rgb(49, 109, 90);
 	--white: #ffffff;
 	--blue: rgb(61, 145, 219);
 	/*--red: rgb(237, 24, 70);*/
-	--red:  rgb(119 91 97);
+	--red:  rgb(119, 91, 97);
 	--cyan:  #9fa5;
 	-lred: rgb(234, 35, 43);
 
