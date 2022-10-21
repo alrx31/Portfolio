@@ -25,14 +25,11 @@ html,body{
 
 :root{
 	--green: rgb(0, 192, 129);
-	/*--green: rgb(112, 143, 133);*/
 	--white: #ffffff;
 	--blue: rgb(61, 145, 219);
 	--red: rgb(237, 24, 70);
-	/*--red:  rgb(122, 91, 92);*/
 	--cyan:  #41d36b;
 	--lred: rgb(234, 35, 43);
-
 	--black: black;
 	--gray:  lightgray;
 	--index: calc(1vh + 1vw);
