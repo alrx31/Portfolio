@@ -24,12 +24,12 @@ html,body{
 }
 
 :root{
-	/*--green: rgb(0, 192, 129);*/
-	--green: rgb(112, 143, 133);
+	--green: rgb(0, 192, 129);
+	/*--green: rgb(112, 143, 133);*/
 	--white: #ffffff;
 	--blue: rgb(61, 145, 219);
-	/*--red: rgb(237, 24, 70);*/
-	--red:  rgb(122, 91, 92);
+	--red: rgb(237, 24, 70);
+	/*--red:  rgb(122, 91, 92);*/
 	--cyan:  rgb(89 ,133, 157);
 	-lred: rgb(234, 35, 43);
 
