@@ -308,7 +308,9 @@ nav {
 .about form input, .about form textarea{
 	color:var(--black);
 }
-
+.about form input::placeholder,.about textarea::placeholder {
+	color: var(--white);
+}
 
 
 
