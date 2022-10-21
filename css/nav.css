@@ -103,7 +103,7 @@ nav {
 .contact {
 	width: 70vw;
 	height: 100%;
-	background-color:rgb(234, 35, 43);
+	background-color:var(--lred);
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -309,7 +309,7 @@ nav {
 	color:var(--black);
 }
 .about form input::placeholder,.about textarea::placeholder {
-	color: var(--white);
+	color: var(--black);
 }
 
 
@@ -337,6 +337,7 @@ textarea {
 
 form input:focus,textarea:focus {
 	border-bottom: 2px solid black;
+	color:var(--red);
 }
 form button {
 	padding: 20px;
