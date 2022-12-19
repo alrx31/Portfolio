@@ -11,6 +11,7 @@ font-family: 'Russo One', sans-serif;    /Жирный текст   */
 html,body{
 	scroll-behavior: smooth;
 	overflow-x: hidden;
+	background: #fff;
 }
 
 *{
@@ -121,7 +122,16 @@ h6 {
 }
 
 
+footer {
+	width: 100vw;
+	height: auto;
+	margin-top: 100px;
+}
+footer img{
+	width: 100%;
+	height: auto;
 
+}
 
 @keyframes Rotate {
 	from{
