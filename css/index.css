@@ -1,7 +1,7 @@
 /*font-family: 'Amatic SC', cursive;  /  худой текст
 font-family: 'Caveat', cursive;			/ рукописный текст
 font-family: 'Comfortaa', cursive;      / красивый текст
-font-family: 'Russo One', sans-serif;    /Жирный текст   */	 
+font-family: 'Russo One', sans-serif;    /Жирный текст   */
 @import url(header.css);
 @import url(sections.css);
 @import url(nav.css);
@@ -9,50 +9,50 @@ font-family: 'Russo One', sans-serif;    /Жирный текст   */
 
 
 html,body{
-	scroll-behavior: smooth;
-	overflow-x: hidden;
-	background: #fff;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background: #fff;
 }
 
 *{
-	box-sizing: border-box;
-	padding: 0;
-	margin: 0;
-	font-size: 20px;
-	text-decoration: none;
-	list-style: none;
-	transition: .3s;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    text-decoration: none;
+    list-style: none;
+    transition: .3s;
 }
 
 :root{
-	--green: rgb(0, 192, 129);
-	--white: #ffffff;
-	--blue: rgb(61, 145, 219);
-	--red: rgb(237, 24, 70);
-	--cyan:  #41d36b;
-	--lred: rgb(234, 35, 43);
-	--black: black;
-	--gray:  lightgray;
-	--index: calc(1vh + 1vw);
+    --green: rgb(0, 192, 129);
+    --white: #ffffff;
+    --blue: rgb(61, 145, 219);
+    --red: rgb(237, 24, 70);
+    --cyan:  #41d36b;
+    --lred: rgb(234, 35, 43);
+    --black: black;
+    --gray:  lightgray;
+    --index: calc(1vh + 1vw);
 }
 h1{
-	font-family: 'russo one', sans-serif;
-	font-size: calc(var(--index)*2.1);
-	text-align: center;
+    font-family: 'russo one', sans-serif;
+    font-size: calc(var(--index)*2.1);
+    text-align: center;
 }
 h3{
-	font-family: 'Comfortaa', cursive;
-	font-size: calc(var(--index)*1.5);
-	color: var(--white);
-	font-weight: lighter;
+    font-family: 'Comfortaa', cursive;
+    font-size: calc(var(--index)*1.5);
+    color: var(--white);
+    font-weight: lighter;
 }
 
 
 
 
 h6 {
-	font-family: 'Comfortaa', cursive;
-	font-size: 16px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 16px;
 }
 
 
@@ -63,37 +63,37 @@ h6 {
 
 
 .name {
-	position: fixed;
-	top: 10px;
-	left: 10px;
-	z-index: 998;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 998;
 }
 .name p {
-	font-family: 'Caveat', cursive;
-	font-size: 40px;
-	cursor: default;
+    font-family: 'Caveat', cursive;
+    font-size: 40px;
+    cursor: default;
 }
 .name h6 {
-	font-size: 16px;
-	margin-left: 10px;
-	cursor: default;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: default;
 }
 .sound{
-	width: 15px;
-	height: 15px;
-	margin-left: 20px;
-	position: absolute;
-	right: 0;
-	top: 20px;
+    width: 15px;
+    height: 15px;
+    margin-left: 20px;
+    position: absolute;
+    right: 0;
+    top: 20px;
 }
 .sound img{
-	width: 100%;
-	transition: .2s;
-	transform: rotate(0);
-	cursor: pointer;
+    width: 100%;
+    transition: .2s;
+    transform: rotate(0);
+    cursor: pointer;
 }
 .sound img:hover {
-	transform: rotate(-10deg);
+    transform: rotate(-10deg);
 }
 
 
@@ -101,59 +101,59 @@ h6 {
 
 
 .cursor {
-	width: 40px;
-	height: 40px;
-	outline: 3px dotted var(--black);
-	z-index: 800;
-	border-radius: 50%;
-	position: fixed;
-	background-color: var(--red);
-	top: 0;
-	left: 0;
-	animation: Rotate 3s infinite linear;
-	transform: translate(-50%,-50%);
-	transition: 0;
-	z-index: 1;
+    width: 40px;
+    height: 40px;
+    outline: 3px dotted var(--black);
+    z-index: 800;
+    border-radius: 50%;
+    position: fixed;
+    background-color: var(--red);
+    top: 0;
+    left: 0;
+    animation: Rotate 3s infinite linear;
+    transform: translate(-50%,-50%);
+    transition: 0s;
 }
 .cursor:hover {
-	background-color: transparent;
-	width: 60px;
-	height: 60px;
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
 }
 
 
 footer {
-	width: 100vw;
-	height: auto;
-	margin-top: 100px;
+    width: 100vw;
+    height: auto;
+    margin-top: 100px;
 }
 footer img{
-	width: 100%;
-	height: auto;
+    width: 100%;
+    height: auto;
 
 }
 
 @keyframes Rotate {
-	from{
-		transform: rotate(0deg);
-	}to{transform: rotate(360deg);}
+    from{
+        transform: rotate(0deg);
+    }to{transform: rotate(360deg);}
 }
 
 ::-webkit-scrollbar {
-  width: 10px;
+    width: 10px;
 
 }
 
 ::-webkit-scrollbar-track {
-  background: var(white);
+    background: var(--white);
 
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--green);
-  border-radius: 10px;
+    background: var(--green);
+    border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: gray;
+    background: gray;
 }
+
