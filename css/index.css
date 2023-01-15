@@ -123,19 +123,23 @@ h6 {
 
 footer {
     width: 100vw;
-    height: auto;
+    height: calc(var(--index) * 21);
     margin-top: 100px;
+    position: relative;
+    overflow: hidden;
+    bottom: 0;
 }
 footer img{
     width: 100%;
     height: auto;
-
+    object-fit:contain;
+    position:absolute;
+    bottom: 0;
 }
 
 @keyframes Rotate {
-    from{
-        transform: rotate(0deg);
-    }to{transform: rotate(360deg);}
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
 }
 
 ::-webkit-scrollbar {

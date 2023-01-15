@@ -337,7 +337,7 @@ textarea {
 
 form input:focus,textarea:focus {
 	border-bottom: 2px solid black;
-	color:var(--red);
+	
 }
 form button {
 	padding: 20px;
