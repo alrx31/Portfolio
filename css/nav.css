@@ -167,7 +167,7 @@ nav {
 	justify-content: space-evenly;
 
 }
-.nav__gifs img{
+.nav__gifs video{
 	padding: 20px;
 	width: calc(var(--index)*15);
 
