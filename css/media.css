@@ -23,6 +23,9 @@
 	.someAbout {
 		max-width: 70%;
 	}
+	.nav__buttons {
+		height: 65%;
+	}
 	.nav__gifs {
 		display: none;
 	}
@@ -63,6 +66,12 @@
 		align-items:center;
 		flex-flow:column nowrap;
 
+	}
+	.about__toDo li {
+		margin:10px 0;
+	}
+	.social__network.nav__social {
+		height: 15%;
 	}
 	
 }
