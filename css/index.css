@@ -8,60 +8,6 @@ font-family: 'Russo One', sans-serif;    /Жирный текст   */
 @import url(media.css);
 
 
-html,body{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-    background: #fff;
-}
-
-*{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    font-size: 20px;
-    text-decoration: none;
-    list-style: none;
-    transition: .3s;
-}
-
-:root{
-    --green: rgb(0, 192, 129);
-    --white: #ffffff;
-    --blue: rgb(61, 145, 219);
-    --red: rgb(237, 24, 70);
-    --cyan:  #41d36b;
-    --lred: rgb(234, 35, 43);
-    --black: black;
-    --gray:  lightgray;
-    --index: calc(1vh + 1vw);
-}
-h1{
-    font-family: 'russo one', sans-serif;
-    font-size: calc(var(--index)*2.1);
-    text-align: center;
-}
-h3{
-    font-family: 'Comfortaa', cursive;
-    font-size: calc(var(--index)*1.5);
-    color: var(--white);
-    font-weight: lighter;
-}
-
-
-
-
-h6 {
-    font-family: 'Comfortaa', cursive;
-    font-size: 16px;
-}
-
-
-
-
-
-
-
-
 .name {
     position: fixed;
     top: 10px;
