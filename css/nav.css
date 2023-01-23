@@ -170,6 +170,8 @@ nav {
 .nav__gifs video{
 	padding: 20px;
 	width: calc(var(--index)*15);
+	height: calc(var(--index)*20);
+	object-fit: cover;
 
 }
 
