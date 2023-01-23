@@ -172,6 +172,8 @@ nav {
 	width: calc(var(--index)*15);
 	height: calc(var(--index)*20);
 	object-fit: cover;
+	border: none;
+	outline: none;
 
 }
 
