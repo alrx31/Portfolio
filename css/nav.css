@@ -285,9 +285,13 @@ nav {
 
 .portfolio {
 	padding: calc(var(--index)*2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 .portfolio__item {
-	width: 60%;
+	width: 40%;
 	height: auto;
 	margin: 0 auto;
 	margin-bottom: 100px;
