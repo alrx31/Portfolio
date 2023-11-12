@@ -9,6 +9,7 @@ window.addEventListener('mousemove', function changeCursor(e){
 });
 
 let cross = document.querySelectorAll('.cross');
+
 for(let i =0; i< cross.length;i++){
 	cross[i].addEventListener('click', ()=>{
 		portfolio.classList.remove('active')
@@ -20,6 +21,8 @@ let portfolio = document.querySelector('.portfolio')
 let about = document.querySelector('.about')
 let contact = document.querySelector('.contact')
 let profLinks = document.querySelectorAll('#profBut')
+
+
 for( let i = 0; i< profLinks.length; i++){
 	profLinks[i].addEventListener('click', ()=>{
 		if(profLinks[i].value == 'portfolio'){
